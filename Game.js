@@ -162,6 +162,7 @@ GameBoard.Game.prototype = {
         }
     },
     
+    /*
     displayGameScoreLeaders: function() {
         var obj, dbParam, xmlhttp;
         obj = { "limit":5 };
@@ -182,6 +183,7 @@ GameBoard.Game.prototype = {
         xmlhttp.open("GET", "json_demo_db.php?x=" + dbParam, true);
         xmlhttp.send();          
     },
+    */
     
     quitGame: function() {
         this.ding.play();
